@@ -1,0 +1,57 @@
+.main_heading{
+display: flex;
+flex-direction: column;
+
+}
+.container_header{
+    text-align: center;
+    margin-top: 30px;
+}
+.container_header p{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-right: 10px;
+    transform: rotate(-90deg);
+}
+.container_header h1{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/*Navr bar starts*/
+
+.nav_bar {
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+}
+.nav_bar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav_bar li{
+    margin: 10px 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar ul li:hover{
+    font-size: 1.4rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-bottom: 3px solid  orange;
+    box-shadow: -3px 2px 0px orange;
+    border-radius: 4px;
+    font-family: cursive;
+}
+a{
+    all:unset ;
+}
+
+a:hover{
+    color: blue;
+}
+
