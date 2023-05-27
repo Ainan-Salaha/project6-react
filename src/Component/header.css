@@ -39,13 +39,13 @@ flex-direction: column;
 }
 
 .nav_bar ul li:hover{
-    font-size: 1.4rem;
-    transition: all 0.2s ease-in-out;
+    /* font-size: 1.4rem; */
+    /* transition: all 0.2s ease-in-out; */
     cursor: pointer;
-    border-bottom: 3px solid  orange;
-    box-shadow: -3px 2px 0px orange;
-    border-radius: 4px;
-    font-family: cursive;
+    /* border-bottom: 3px solid  orange; */
+    /* box-shadow: -3px 2px 0px orange; */
+    /* border-radius: 4px; */
+    /* font-family: cursive; */
 }
 a{
     all:unset ;
